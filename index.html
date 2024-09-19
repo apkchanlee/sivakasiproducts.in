@@ -111,12 +111,26 @@
             }
 
         }
+
+        .float-button {
+            position: fixed;
+              left: 50%;
+              bottom: 100px;
+              transform: translateX(-50%);
+              background-color: #FF3656; /* Yellow background */
+              color: #FFFFFF; /* Red text */
+              border-radius: 10px;
+              padding: 15px 30px;
+              font-size: 18px;
+              font-weight: bold;
+              text-decoration: none;
+              z-index: 999;
+        }
                 
           @media only screen and (max-width: 768px) {
             .float-button {
               font-size: 14px;
               padding: 10px 20px;
-              bottom: 100px;
             }
           }
           
@@ -152,20 +166,7 @@
 
     </div>
 
-    <a href="https://bigfestival.in" class="float-button" style="
-      position: fixed;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #FF3656; /* Yellow background */
-      color: #FFFFFF; /* Red text */
-      border-radius: 10px;
-      padding: 15px 30px;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration: none;
-      z-index: 999;
-    ">
-    
+    <a href="https://bigfestival.in" class="float-button">
       Go Home
     </a>
 
