@@ -111,7 +111,21 @@
             }
 
         }
-    </style>
+                
+          @media only screen and (max-width: 768px) {
+            .float-button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+          
+          @media only screen and (max-width: 480px) {
+            .float-button {
+              font-size: 12px;
+              padding: 8px 15px;
+            }
+          }
+        </style>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DEWHBDZJ0M"></script>
@@ -135,6 +149,24 @@
         <div class="background-image"></div>
 
     </div>
+
+    <a href="https://bigfestival.in" class="float-button" style="
+      position: fixed;
+      bottom: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #FFFF00; /* Yellow background */
+      color: #FF0000; /* Red text */
+      border-radius: 50%;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      z-index: 999;
+    ">
+    
+      Go Home
+    </a>
 
 </body>
 
